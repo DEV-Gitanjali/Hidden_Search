@@ -45,3 +45,17 @@ body{
     transition: transform 0.3s ease;
     
 }
+/* this styling for focus line of the button */
+.btn:focus,
+.input:focus{
+    outline: none;
+}
+
+/* this code for how to work using css & js */
+.search .active .input{
+    width:200px;
+}
+
+.search .active .btn{
+    transform: translateX(198px);
+}
