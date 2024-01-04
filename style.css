@@ -52,10 +52,13 @@ body{
 }
 
 /* this code for how to work using css & js */
-.search .active .input{
-    width:200px;
-}
 
-.search .active .btn{
+.search.active .input {
+    width: 200px;
+  }
+  
+  .search.active .btn {
     transform: translateX(198px);
-}
+  }
+
+  
